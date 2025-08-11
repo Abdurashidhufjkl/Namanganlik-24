@@ -35,6 +35,22 @@ a {
   padding: 20px 0;
 }
 
+.navbar_btn {
+  width: 320px;
+  height: 40px;
+  left: 119px;
+  top: 44px;
+  background: #ffffff;
+  box-shadow: 0px 5px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+  border: none;
+}
+
+.logo__ul {
+  display: flex;
+  gap: 25px;
+}
+
 .prices {
   display: flex;
   gap: 20px;
@@ -428,15 +444,14 @@ a {
   gap: 15px;
 }
 
-.footer__list2{
-width: 225px;
+.footer__list2 {
+  width: 225px;
 
+  font-family: "Rubik";
+  font-style: normal;
 
-font-family: 'Rubik';
-font-style: normal;
-
-color: #FFFFFF;
-flex-direction: column;
-display: flex;
-gap: 10px;
+  color: #ffffff;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
 }

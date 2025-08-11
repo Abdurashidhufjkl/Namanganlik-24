@@ -35,10 +35,10 @@ a {
   padding: 20px 0;
 }
 
-.navbar__under{
-    display: flex;
+.navbar__under {
+  display: flex;
 
-    gap: 15px;
+  gap: 15px;
 }
 
 .navbar_btn {
@@ -69,14 +69,12 @@ a {
   color: #535353;
 }
 
-
-
-.navbar__btn3{
-width: 38.1px;
-height: 40px;
-background: #FFFFFF;
-border-radius: 5px;
-border: none;
+.navbar__btn3 {
+  width: 38.1px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
 }
 
 .prices {
@@ -375,7 +373,7 @@ border: none;
   width: 100%;
   background-color: #295093;
   margin: auto;
-  margin-top: 500px;
+  margin-top: 60px;
 }
 
 .footer__btn {
@@ -482,3 +480,72 @@ border: none;
   display: flex;
   gap: 10px;
 }
+
+.news2__left {
+  margin: 80px 0;
+}
+
+.news2__container {
+  display: flex;
+
+  gap: 25px;
+}
+
+.news2__texts {
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+  margin-top: 36px;
+}
+
+.news2__texts p {
+  width: 794px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.news2__texts h3 {
+  width: 794px;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.news2__texts ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.news2__texts a {
+  width: 790px;
+  height: 21px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #28508e;
+}
+
+.news2__right {
+  display: flex;
+  height: 1039px;
+}
+
+
+
+.plan__img{
+  display: flex;
+  gap: 20px;
+  margin: auto;
+}
+
+.plan__container{
+  margin: auto;
+}
+
