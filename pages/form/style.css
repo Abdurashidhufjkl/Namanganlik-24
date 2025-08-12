@@ -549,7 +549,8 @@ a {
 
 .contact {
   width: 1400px;
-
+  margin-top: 17px;
+  margin-left: 80px;
   margin: auto;
 }
 
@@ -612,6 +613,11 @@ form {
   border-radius: 5px;
 }
 
+.contact__container {
+  display: flex;
+  gap: 90px;
+}
+
 textarea {
   background: #f1f1f1;
   opacity: 0.5;
@@ -640,4 +646,62 @@ textarea {
   line-height: 21px;
 
   color: #ffffff;
+}
+
+.contact__right {
+  width: 510px;
+  height: 280px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 9px rgba(57, 57, 57, 0.25);
+  border-radius: 5px;
+  margin: 64px 0;
+}
+
+.contact__logo {
+  width: 329px;
+  height: 33px;
+  margin: 20px 0;
+  margin-left: 170px;
+}
+
+.contact__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 24px;
+}
+
+.url__container {
+  display: flex;
+}
+
+.contact__a {
+  width: 168px;
+  height: 21px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.contact__texts p {
+  width: 222px;
+  height: 21px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+}
+
+
+
+
+
+.contact__telegrma {
+  margin-top: 18px;
+  margin-left: 88px;
 }

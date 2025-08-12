@@ -60,31 +60,40 @@
     </section>
 
     <section class="contact">
-      <form>
-        <p class="contact_title">Напишите нам</p>
-        <input class="long_input" type="text" placeholder="Имя" required />
-        <input
-          class="long_input"
-          type="email"
-          placeholder="Электронная почта"
-          required
-        />
-        <input
-          class="long_input"
-          type="tel"
-          placeholder="Номер телефона"
-          required
-        />
-        <input class="long_input" type="text" placeholder="Тема" />
-        <textarea name="" id="" placeholder="Текст"></textarea>
-        <label class="file-upload">
-          <input type="file" />
-          Прикрепить файл
-        </label>
+      <div class="contact__container container">
+        <div class="contact__left">
+          <form>
+            <p class="contact_title">Напишите нам</p>
+            <input class="long_input" type="text" placeholder="Имя" required />
+            <input
+              class="long_input"
+              type="email"
+              placeholder="Электронная почта"
+              required
+            />
+            <input
+              class="long_input"
+              type="tel"
+              placeholder="Номер телефона"
+              required
+            />
+            <input class="long_input" type="text" placeholder="Тема" />
+            <textarea name="" id="" placeholder="Текст"></textarea>
+            <label class="file-upload">
+              <input type="file" />
+              Прикрепить файл
+            </label>
 
-        <input class="code" type="text" placeholder="Код" />
-        <button class="form_btn" type="submit">Отправить</button>
-      </form>
+            <input class="code" type="text" placeholder="Код" />
+            <button class="form_btn" type="submit">Отправить</button>
+          </form>
+        </div>
+
+        <div class="contact__right">
+          <div class="contact__logo">
+            <img src="/pages/assets/logo (1).png" alt="" />
+          </div>
+
     </section>
 
     <section class="footer">
